@@ -1,0 +1,37 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+
+<!--<hibernate-configuration>-->
+
+<!--    <session-factory>-->
+
+<!--        &lt;!&ndash; Postgres database connection settings &ndash;&gt;-->
+<!--        <property name="connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="connection.url">jdbc:postgresql://localhost:5432/e-shop-hiber-g48</property>-->
+<!--        <property name="connection.username">postgres</property>-->
+<!--        <property name="connection.password">384400Rtimtim@</property>-->
+<!--        <property name="hibernate.default_schema">PUBLIC</property>-->
+<!--        <property name="dialect">org.hibernate.dialect.PostgreSQL94Dialect</property>-->
+
+<!--        &lt;!&ndash; JDBC connection pool (use the built-in) &ndash;&gt;-->
+<!--        <property name="connection.pool_size">1000</property>-->
+
+<!--        &lt;!&ndash;Echo all executed SQL to stdout&ndash;&gt;-->
+<!--        <property name="show_sql">true</property>-->
+<!--        <property name="format_sql">true</property>-->
+
+<!--        &lt;!&ndash; Drop and re-create the database schema on startup &ndash;&gt;-->
+<!--        <property name="hbm2ddl.auto">create</property>-->
+
+<!--        &lt;!&ndash; ENTITIES &ndash;&gt;-->
+<!--        <mapping package="ua.mainacademy.model"/>-->
+<!--        <mapping class="ua.mainacademy.model.User"/>-->
+<!--        <mapping class="ua.mainacademy.model.Item"/>-->
+<!--        <mapping class="ua.mainacademy.model.OrderItem"/>-->
+<!--        <mapping class="ua.mainacademy.model.Order"/>-->
+
+<!--    </session-factory>-->
+
+<!--</hibernate-configuration>-->
